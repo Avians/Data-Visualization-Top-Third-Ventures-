@@ -1,0 +1,41 @@
+/* 
+    Document   : inner_global
+    Created on : Sep 23, 2013, 5:33:31 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.tabbable-custom .nav-tabs > li{
+    min-width: 30% !important; text-align: center !important; font-size: 16px !important;
+    font-family: Oswald-Light !important; letter-spacing: 0.09em !important; font-weight: lighter;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover{
+    cursor: default; background: #f5f5f5 !important; color: #ffb848 !important;
+    border: 1px solid #ddd; border-bottom-color: transparent;
+}
+
+.tabbable-custom .nav-tabs > li.active {
+    border-top: 4px solid #ffb848 !important;
+}
+
+.tab-content{
+    min-height: 520px !important; margin-bottom: -15px !important;
+}
+
+.tab-content h1{
+    font-size: 17px !important; color: #555555 !important;
+    font-family: Oswald-Light !important; letter-spacing: 0.09em !important; font-weight: lighter;
+}
+
+.accordion-heading > a {
+    font-family: Oswald-Light !important; letter-spacing: 0.09em !important; font-weight: lighter; font-size: 15px !important;
+}
+
+.accordion-inner{
+   min-height: 250px !important; 
+} 
+
+.tab-content{
+   min-height: 200px !important; margin-bottom: 10px !important; 
+}

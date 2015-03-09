@@ -1,0 +1,18 @@
+<style type="text/css">
+
+    .top-bar-wrapper{
+        background-color: #3f3f3f !important; border-bottom: 1px solid #3f3f3f !important;
+    }
+
+    .search-box-wrapper{
+        border-left:1px solid #3f3f3f !important; border-right:1px solid #3f3f3f !important;
+        border-bottom:1px solid #3f3f3f !important; border-top: none !important;
+    }
+    
+    .brand sup{
+        font-size: 11px !important;
+    }
+
+</style>
+
+

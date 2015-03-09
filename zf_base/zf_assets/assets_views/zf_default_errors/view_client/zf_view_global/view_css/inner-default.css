@@ -1,0 +1,13 @@
+/* 
+    Document   : inner-default
+    Created on : Feb 3, 2014, 4:45:24 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.construction-info{
+    font-family: Oswald-Light !important; font-size: 18px !important; letter-spacing: 1px; font-weight: lighter; color: #676767 !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 20px !important; text-align: center;
+}
+

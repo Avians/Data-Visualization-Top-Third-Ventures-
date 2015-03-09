@@ -1,0 +1,75 @@
+/* 
+    Document   : inner_global
+    Created on : Sep 23, 2013, 5:33:31 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.login{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#333333 !important;
+}
+
+form input, form select{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#333333 !important;
+}
+
+form a{
+    color: #e9931c !important;
+}
+
+.login p{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#333333 !important;
+    letter-spacing: 0.05em !important;
+}
+
+.login h3{
+    font-family: Cuprum-Regular !important; font-size: 18px !important; line-height: 20px !important; font-weight: lighter; color:#efefef !important;
+    letter-spacing: 0.05em !important; text-align: center !important;
+}
+
+.login h4{
+    font-family: Oswald-Light !important; font-size: 20px !important; line-height: 20px !important; font-weight: lighter; color:#efefef !important;
+    letter-spacing: 0.05em !important;
+}
+
+.login .logo {
+    width: 247px;
+    margin: 0 auto; margin-top: 60px; padding: 15px; text-align: center;
+}
+
+.logo-title h3{
+    font-family: Oswald-Light !important; font-size: 28px !important; letter-spacing: 1px; font-weight: lighter; color: #e9931c !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 0px !important; text-align: center !important;
+}
+.logo-title h3>sup {
+    font-family: Oswald-Light !important; font-size: 18px !important; letter-spacing: 1px; font-weight: lighter; color: #e9931c !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 0px !important; text-align: center !important;
+}
+
+.control-group.error .help-inline {
+    color: #e9931c/*#b94a48*/; font-family: Cuprum-Regular !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter;
+
+}
+
+.copyright{
+    border: 0px solid #ff0000 !important; width: 94% !important; padding-left: 0px !important;
+}
+
+.footer-inner{
+    font-family: ProximaNova-Light !important; font-size: 11px !important; line-height: 15px !important; font-weight: lighter !important; color:#676767 !important;
+    letter-spacing: 0.05em !important; padding: 0 auto !important;
+}
+
+.footer-inner a{
+    font-style: italic !important; color: #669900 !important; font-size: 10px !important; color: #669900 !important; font-weight: lighter !important;
+    letter-spacing: 1px; font-family: electrolize-regular;
+}
+
+/**
+THIS IS THE CSS THAT STYLES ALL THE FORM ERRORS
+*/
+.server-side-error{
+    color: #e9931c/*#b94a48*/ !important; font-family: Cuprum-Regular !important; font-size: 15px !important;
+    line-height: 20px !important; font-weight: lighter;   
+}
+

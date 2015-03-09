@@ -1,0 +1,16 @@
+<style type="text/css">
+    .widget_wrapper{
+        width: 250px !important; height: 145px !important; background-color: brown !important;
+    }
+    
+    .data{
+        width: 200px !important;
+        margin: 5px auto 5px auto !important;
+    }
+    
+    .data table{
+        background-color: greenyellow !important;
+    }
+    
+</style>
+

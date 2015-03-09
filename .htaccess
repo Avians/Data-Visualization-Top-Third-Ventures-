@@ -1,0 +1,22 @@
+#This .htaccess file is written and documented by Athias Avians (MATHEW JUMA).
+  #Time: 11th/August/2013  Time: 19:00 EMT
+
+#This file ensures that the application is strictly executed via the "index.php" file which is
+  #within the application's main directory. The "index.php" file is the application's main file
+  #and so all the URLS must be redirected and routed to pass through it.
+
+
+# 1.This rule turns the Engine rewrite on.
+	RewriteEngine On 
+        
+#Here we define the rewrite base rule for the application,
+#which is the main applications directory from the root of the server.
+        RewriteBase /data_portal
+	
+# 2.The below 3 rules ensures that we are not redirected if the URL is to a directory->d, file->f or a link->l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+
+# 3. A rewrite rule that ensures that all the URL requests are redirected to the index page.
+	RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

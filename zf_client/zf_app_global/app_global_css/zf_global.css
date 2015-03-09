@@ -1,0 +1,217 @@
+/* 
+    Document   : global
+    Created on : Sep 23, 2013, 2:22:29 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+   font-family: ProximaNova-Light !important; 
+}
+
+/**
+THIS IS THE CSS THAT CONTROLS THE LOOK AND FEEL OF THE HEADER SECTION
+*/
+ .navbar-inner, .navbar-inverse{
+    background: url(../app_global_files/app_global_images/background.png) repeat !important;
+    border-bottom: 10px solid #e9931c;
+}
+
+.header .brand {
+  width: 225px !important;
+}
+
+.brand p{
+    font-family: Oswald-Light !important; font-size: 18px !important; letter-spacing: 1px; font-weight: lighter; color: #676767 !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 20px !important;
+}
+
+.header .btn-navbar {
+    background-color: transparent !important;
+}
+
+.sidebar-toggler {
+    background-image: url(../app_global_files/app_global_images/sidebar-toggler.png);
+    background-color: transparent !important;
+}
+
+.page-sidebar .sidebar-search .submit {
+    background-image: url(../app_global_files/app_global_images/search-icon.png);
+}
+
+.btn {
+    padding: 5px 7px 5px 7px !important;
+}
+
+
+/**
+==================================================================================================================
+*/
+
+/**
+THIS IS THE CSS THAT CONTROLS THE LOOK AND FEEL OF THE CONTENT SECTION
+*/
+.page-sidebar{
+    font-family: Oswald-Light !important; letter-spacing: 0.09em !important; font-weight: lighter;
+}
+
+ul.page-sidebar-menu > li > a {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*This controls the sidebar navigation*/
+ul.page-sidebar-menu > li.active > a {
+    background: url(../app_global_files/app_global_images/background.png) repeat !important;
+    border-top-color: transparent !important; color: #ffffff;
+}
+
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a, ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+    color: #000000 !important; background: #575757 !important;
+}
+
+ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li.active > a, ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li > a:hover {
+    color: #373737 !important; background: #BCBAB2 !important;
+}
+
+
+/*This controls the breadcrumbs section*/
+.page-title{
+    font-family: Oswald-Light !important; font-size: 28px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+.dashboard-stat .details .number {
+    font-family: Oswald-Light !important; font-size: 40px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+.portlet > .portlet-title > .caption {
+    font-family: Oswald-Light !important; font-size: 18px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+.dashboard-stat .details .desc {
+    font-family: Oswald-Light !important; font-size: 14px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+.no-loading-data{
+    padding-top:25% !important; text-align:center !important; color:#767676;
+    font-family: Oswald-Light !important; font-size: 12px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+/**
+==================================================================================================================
+*/
+
+/**
+THIS IS THE CSS THAT CONTROLS THE LOOK AND FEEL OF THE FOOTER SECTION
+*/
+.footer{
+    background: url(../app_global_files/app_global_images/background.png) repeat !important; margin-bottom: 0px !important;
+    border-top: 10px solid #e9931c;
+}
+
+.footer a{
+    font-style: italic !important; color: #669900 !important; font-size: 11px !important; color: #669900 !important; font-weight: lighter !important;
+    letter-spacing: 1px; font-family: electrolize-regular;
+}
+
+/*
+ *This is the CSS that dictates the look and the feel of the beta ribbon
+*/
+
+.ribbon-wrapper{
+    position: absolute !important; width: 100px !important;
+    border: 0px solid #ff0000; height: 90px !important; 
+    margin-top: 11px !important; right: 0px !important;
+    z-index: 100 !important;  
+}
+
+
+.ribbon-wrapper-green {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -13px;
+  right: 0px;
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before {
+  content: "";
+  border-top:   3px solid #6e8900;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+/*.ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}*/
+
+.ribbon-green:before {
+  left: 0;
+}
+/*.ribbon-green:after {
+  right: 0;
+}*/
+
+
+
+/*This is a special style for styling the header of the data grids.*/
+.ui-widget-header {
+    border: 1px solid #d49768;
+    background: #ffb848 !important; color: #fff !important;
+    font-family: Oswald-Light !important; font-size: 18px !important; letter-spacing: 1px; font-weight: lighter;
+}
+
+.ui-jqgrid {
+    border: 1px solid #fccb7e !important;
+}
+
+.ui-jqgrid, .ui-widget, .ui-jqdialog {
+    font-size: 12px !important;
+    font-family: Ubuntu-L,'Droid Sans',"tahoma","verdana","arial" !important;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+    font-size: 15px !important; color: #3d3d3d !important; font-weight: lighter !important;
+    font-family: Cuprum-Regular,'Droid Sans',"tahoma","verdana","arial" !important;
+}
+
+.ui-th-column{
+    border-bottom: 1px solid #fccb7e !important;
+}
+
+
+
+

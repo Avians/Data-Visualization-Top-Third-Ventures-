@@ -1,0 +1,5 @@
+#This .htaccess file is written and documented by Athias Avians (MATHEW JUMA).
+    #Time: 11th/August/2013  Time: 19:00 EMT
+
+#This file ensures that the the "zf_base" directory is secured from access by 
+   #all intrusive web users.
